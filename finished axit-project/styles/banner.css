@@ -18,7 +18,7 @@
 .banner__body {
     max-width: 100%;
     height: 1026px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/city.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/city.png);
     background-size: 1510px 1026px;
     display: flex;
     align-items: center;

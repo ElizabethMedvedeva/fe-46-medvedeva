@@ -1,0 +1,66 @@
+.contact__footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    margin-top: 105px;
+    align-items: center;
+    max-width: 1510px;
+}
+
+.images__list {
+    width: 1510px;
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images__facebook {
+    width: 23.04px;
+    height: 42.12px;
+    margin-left: 485.08px;
+}
+
+.images__twitter {
+    width: 43.56px;
+    height: 35.38px;
+}
+
+.images__linkedin {
+    width: 39.9px;
+    height: 39.9px;
+}
+
+.images__pinterest {
+    width: 44.33px;
+    height: 44.33;
+}
+
+.images__instagram {
+    width: 39.92px;
+    height: 39.98px;
+}
+
+.images__github {
+    width: 44.22px;
+    height: 43.13px;
+}
+
+.images__rss {
+    width: 34.49px;
+    height: 34.49px;
+    margin-right: 480.64px;
+}
+
+.contact__signature h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}

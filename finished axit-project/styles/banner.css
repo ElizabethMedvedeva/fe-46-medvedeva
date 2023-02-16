@@ -48,7 +48,6 @@
 }
 
 .left-section__title h1 {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -90,7 +89,6 @@
     height: 42px;
     margin-top: 42px;
     margin-bottom: 42px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -246,7 +244,6 @@
 }
 
 .text__text h5 {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

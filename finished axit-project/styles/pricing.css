@@ -20,7 +20,6 @@
 }
 
 .pricing__title h2 {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -37,7 +36,6 @@
 }
 
 .pricing__info h5 {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -97,7 +95,6 @@
 }
 
 .pricing__money h3 {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -118,7 +115,6 @@
 }
 
 .pricing__comments h5 {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -142,7 +138,6 @@ ul.pricing__list {
     border: 2px solid #F5F5F5;
     width: 370px;
     height: 50px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-.body {
-    font-family: 'Raleway', sans-serif;
-}
-
 .banner-second__wrapper {
     max-width: 1510px;
     display: flex;
@@ -21,7 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .banner-second__title {

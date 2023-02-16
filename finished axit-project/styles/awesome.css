@@ -1,136 +1,131 @@
 .awesome__container {
-    max-width: 1150px;
-    margin: 0 auto;
+  max-width: 1150px;
+  margin: 0 auto;
 }
 
-
 .awesome__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    margin-left: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-left: 38px;
 }
 
 .awesome__title {
-    display: flex;
-    padding: 54px;
-    align-items: center;
+  display: flex;
+  padding: 54px;
+  align-items: center;
 }
 
 .awesome__description {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 .awesome__title h2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .awesome__description h5 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #86878B;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #86878b;
 }
 
 .awesome__cards {
-    width: 370px;
-    display: flex;
-    padding: 30px 0 60px 0;
-    align-items: center;
-    text-align: center;
-    */
+  width: 370px;
+  display: flex;
+  padding: 30px 0 60px 0;
+  align-items: center;
+  text-align: center;
 }
 
 .card {
-    /*max-width: 370px;
+  /*max-width: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;*/
-    max-width: 370px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
 }
 
 .card__image {
-    margin: 0 auto;
-    padding: 40px 0;
-
+  margin: 0 auto;
+  padding: 40px 0;
 }
 
 .card__image-wrapper {
-    display: flex;
-    width: 92px;
-    height: 92px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 92px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__lamp {
-    width: 92px;
-    height: 92px;
+  width: 92px;
+  height: 92px;
 }
 
 .card__keyboard {
-    width: 92px;
-    height: 92px;
+  width: 92px;
+  height: 92px;
 }
 
 .card__lightning {
-    width: 92px;
-    height: 92px;
+  width: 92px;
+  height: 92px;
 }
 
 .card__title {
-    padding: 33px 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  padding: 33px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .card__description {
-    max-width: 359px;
-    padding-top: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: -10px;
-
+  max-width: 359px;
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: -10px;
 }
 
 .card__title h4 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 33px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    text-transform: capitalize;
-    color: #000000;
-
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  font-family: "Open Sans";
+  font-style: normal;
+  text-transform: capitalize;
+  color: #000000;
 }
 
 .card__description h5 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
 }

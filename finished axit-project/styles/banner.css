@@ -253,7 +253,6 @@
   width: 637.21px;
   height: 140px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }

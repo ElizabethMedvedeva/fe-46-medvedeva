@@ -46,7 +46,6 @@
 
 .reviews__body {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 83px;

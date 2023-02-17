@@ -1,13 +1,6 @@
 .pricing__wrapper {
   max-width: 100%;
 }
-
-.pricing__container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
-}
-
 .pricing__header {
   display: flex;
   flex-direction: column;

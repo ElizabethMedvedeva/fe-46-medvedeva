@@ -18,91 +18,98 @@
     <link href="./styles/reviews.css" rel="stylesheet">
     <link href="./styles/reset.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/socials.css" rel="stylesheet">
+
 
 </head>
 
 <body>
 
     <header class="header">
-        <div class="header__wrapper">
-            <div class="header__banner">
-                <div class="header__logo">
-                    <img class="axit__logo" src="./img/AXIT.png" alt="logo">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__banner">
+                    <div class="header__logo">
+                        <img class="axit__logo" src="./img/AXIT.png" alt="logo">
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__panel">
+                            <li class="menu__sections">
+                                <a href="#tab" class="menu__link">Features</a>
+                            </li>
+                            <li class="menu__sections">
+                                <a href="#awesome" class="menu__link">About</a>
+                            </li>
+                            <li class="menu__sections">
+                                <a href="#pricing" class="menu__link">Pricing</a>
+                            </li>
+                            <li class="menu__sections">
+                                <a href="#reviews" class="menu__link">Reviews</a>
+                            </li>
+                            <li class="menu__sections">
+                                <a href="#contact" class="menu__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="menu">
-                    <ul class="menu__panel">
-                        <li class="menu__sections">
-                            <a href="#tab" class="menu__link">Features</a>
-                        </li>
-                        <li class="menu__sections">
-                            <a href="#awesome" class="menu__link">About</a>
-                        </li>
-                        <li class="menu__sections">
-                            <a href="#pricing" class="menu__link">Pricing</a>
-                        </li>
-                        <li class="menu__sections">
-                            <a href="#reviews" class="menu__link">Reviews</a>
-                        </li>
-                        <li class="menu__sections">
-                            <a href="#contact" class="menu__link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </header>
     <section class="banner">
-        <div class="banner__body">
-            <div class="banner__left-section">
-                <div class="left-section__logotip">
-                    <div class="logotip__ax">
-                        <img src="./img/ax.png" alt="AX">
-                    </div>
-                    <div class="logotip__it">
-                        <img src="./img/IT.png" alt="IT">
-                    </div>
-                </div>
-                <div class="left-section__title">
-                    <h1>
-                        modern axure template for beautiful prototypes
-                    </h1>
-                </div>
-                <div class="divider white"></div>
-                <div class="left-section__text">
-                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
-                </div>
-                <div class="left-section__button">
-                    <button type="button">Download</button>
-                </div>
-            </div>
-            <div class="banner__right-section">
-                <form>
-                    <div class="right-section__card">
-                        <div class="card__title">
-                            <h4>try your <span>free</span> trial today</h4>
+        <div class="container">
+            <div class="banner__body">
+                <div class="banner__left-section">
+                    <div class="left-section__logotip">
+                        <div class="logotip__ax">
+                            <img src="./img/ax.png" alt="AX">
                         </div>
-                        <div class="card__card-input">
-                            <div class="card-input__name">
-                                <input type="text" placeholder="Name">
+                        <div class="logotip__it">
+                            <img src="./img/IT.png" alt="IT">
+                        </div>
+                    </div>
+                    <div class="left-section__title">
+                        <h1>
+                            modern axure template for beautiful prototypes
+                        </h1>
+                    </div>
+                    <div class="divider white"></div>
+                    <div class="left-section__text">
+                        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
+                    </div>
+                    <div class="left-section__button">
+                        <button type="button">Download</button>
+                    </div>
+                </div>
+                <div class="banner__right-section">
+                    <form>
+                        <div class="right-section__card">
+                            <div class="card__title">
+                                <h4>try your <span>free</span> trial today</h4>
                             </div>
-                            <div class="card-input__email">
-                                <input type="email" placeholder="Email">
-                            </div>
-                            <div class="card-input__psw">
-                                <input type="password" placeholder="Password">
-                            </div>
+                            <div class="card__card-input">
+                                <div class="card-input__name">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="card-input__email">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="card-input__psw">
+                                    <input type="password" placeholder="Password">
+                                </div>
 
+                            </div>
+                            <div class="card__btn">
+                                <button type="submit">Get Started</button>
+                            </div>
                         </div>
-                        <div class="card__btn">
-                            <button type="submit">Get Started</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="banner__footer">
-            <div class="footer__text">
+    </section>
+    <section class="socials">
+        <div class="socials__container">
+            <div class="socials__text">
                 <div class="text__social-media">
                     <h4>Social Media</h4>
                 </div>
@@ -112,7 +119,7 @@
                         loareet.</h5>
                 </div>
             </div>
-            <div class="footer__pic">
+            <div class="socials__pic">
                 <ul class="pic__list">
                     <li>
                         <a href="https://www.facebook.com/">
@@ -152,11 +159,9 @@
                 </ul>
             </div>
         </div>
-        </div>
-        </div>
     </section>
     <section class="tabs">
-        <div class="tabs__container">
+        <div class="container">
             <div class="tabs__wrapper">
                 <div class="tabs__body">
                     <div class="tabs__nav-list">
@@ -244,7 +249,7 @@
     </section>
     <script src="./tab.js"></script>
     <section class="awesome">
-        <div class="awesome__container">
+        <div class="container">
             <div class="awesome__header">
                 <div class="awesome__title">
                     <h2>WHY THIS IS AWESOME</h2>
@@ -316,8 +321,8 @@
         </div>
     </section>
     <section class="pricing">
-        <div class="pricing__wrapper">
-            <div class="pricing__container">
+        <div class="container">
+            <div class="pricing__wrapper">
                 <div class="pricing__header">
                     <div class="pricing__title">
                         <h2>pricing options</h2>
@@ -390,104 +395,108 @@
         </div>
     </section>
     <section class="reviews">
-        <div class="reviews__wrapper">
-            <div class="reviews__header">
-                <div class="reviews__title">
-                    <h2>what our customers are saying</h2>
+        <div class="container">
+            <div class="reviews__wrapper">
+                <div class="reviews__header">
+                    <div class="reviews__title">
+                        <h2>what our customers are saying</h2>
+                    </div>
+                    <span class="divider divider_pink"></span>
+                    <div class="reviews__info">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                    </div>
                 </div>
-                <span class="divider divider_pink"></span>
-                <div class="reviews__info">
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                <div class="reviews__body">
+                    <div class="reviews__card">
+                        <div class="reviews__message">
+                            <div class="message__cards">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus
+                                    expedita
+                                    repellat similique odio aspernatur ex, architecto eaque quo suscipt.</h5>
+                            </div>
+                        </div>
+                        <div class="reviews__profile">
+                            <div class="profile__avatar">
+                                <img src="./img/first_avatar.png" alt="first_avatar">
+                            </div>
+                            <div class="profile__info">
+                                <div class="info__nick">
+                                    <h4>Davis Rhiel Madsen</h4>
+                                </div>
+                                <div class="info__position">
+                                    <h5>Manager</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__card">
+                        <div class="reviews__message">
+                            <div class="message__cards">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus
+                                    expedita
+                                    repellat similique odio aspernatur ex, architecto eaque quo suscipt.</h5>
+                            </div>
+                        </div>
+                        <div class="reviews__profile">
+                            <div class="profile__avatar">
+                                <img src="./img/second_avatar.png" alt="second_avatar">
+                            </div>
+                            <div class="profile__info">
+                                <div class="info__nick">
+                                    <h4>Jaydon Rosser</h4>
+                                </div>
+                                <div class="info__position">
+                                    <h5>Manager</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__card">
+                        <div class="reviews__message">
+                            <div class="message__cards">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus
+                                    expedita
+                                    repellat similique odio aspernatur ex, architecto eaque quo suscipt.</h5>
+                            </div>
+                        </div>
+                        <div class="reviews__profile">
+                            <div class="profile__avatar">
+                                <img src="./img/third_avatar.png" alt="third_avatar">
+                            </div>
+                            <div class="profile__info">
+                                <div class="info__nick">
+                                    <h4>Cooper Dorwart</h4>
+                                </div>
+                                <div class="info__position">
+                                    <h5>Manager</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="reviews__body">
-                <div class="reviews__card">
-                    <div class="reviews__message">
-                        <div class="message__cards">
-                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus expedita
-                                repellat similique odio aspernatur ex, architecto eaque quo suscipt.</h5>
-                        </div>
-                    </div>
-                    <div class="reviews__profile">
-                        <div class="profile__avatar">
-                            <img src="./img/first_avatar.png" alt="first_avatar">
-                        </div>
-                        <div class="profile__info">
-                            <div class="info__nick">
-                                <h4>Davis Rhiel Madsen</h4>
-                            </div>
-                            <div class="info__position">
-                                <h5>Manager</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__card">
-                    <div class="reviews__message">
-                        <div class="message__cards">
-                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus expedita
-                                repellat similique odio aspernatur ex, architecto eaque quo suscipt.</h5>
-                        </div>
-                    </div>
-                    <div class="reviews__profile">
-                        <div class="profile__avatar">
-                            <img src="./img/second_avatar.png" alt="second_avatar">
-                        </div>
-                        <div class="profile__info">
-                            <div class="info__nick">
-                                <h4>Jaydon Rosser</h4>
-                            </div>
-                            <div class="info__position">
-                                <h5>Manager</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__card">
-                    <div class="reviews__message">
-                        <div class="message__cards">
-                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus expedita
-                                repellat similique odio aspernatur ex, architecto eaque quo suscipt.</h5>
-                        </div>
-                    </div>
-                    <div class="reviews__profile">
-                        <div class="profile__avatar">
-                            <img src="./img/third_avatar.png" alt="third_avatar">
-                        </div>
-                        <div class="profile__info">
-                            <div class="info__nick">
-                                <h4>Cooper Dorwart</h4>
-                            </div>
-                            <div class="info__position">
-                                <h5>Manager</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
         </div>
     </section>
     <section class="banner-second">
-        <div class="banner-second__wrapper">
-            <div class="banner-second__body">
-                <div class="banner-second__title">
-                    <h2>stylish axure design</h2>
-                </div>
-                <div class="banner-second__info">
-                    <h5>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster then
-                        ever!</h5>
-                </div>
-                <div class="banner-second__btn">
-                    <button type="button">download</button>
+        <div class="banner__container">
+            <div class="banner-second__wrapper">
+                <div class="banner-second__body">
+                    <div class="banner-second__title">
+                        <h2>stylish axure design</h2>
+                    </div>
+                    <div class="banner-second__info">
+                        <h5>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster then
+                            ever!</h5>
+                    </div>
+                    <div class="banner-second__btn">
+                        <button type="button">download</button>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
     <section class="contact">
-        <div class="contact__container">
+        <div class="container">
             <div class="contact__wrapper">
                 <div class="contact__header">
                     <div class="contact__title">
@@ -524,51 +533,51 @@
             </div>
         </div>
     </section>
-    <footer class="contact__footer">
-        <!--<div class="contact__wrapper">-->
-        <div class="contact__images">
-            <ul class="images__list">
-                <li>
-                    <a href="https://www.facebook.com/">
-                        <img class="images__facebook" src="./img/facebook.png" alt="facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/">
-                        <img class="images__twitter" src="./img/twitter.png" alt="twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/">
-                        <img class="images__linkedin" src="./img/linkedin.png" alt="linkedin">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.pinterest.com/">
-                        <img class="images__pinterest" src="./img/pinterest.png" alt="pinterest">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/">
-                        <img class="images__instagram" src="./img/insta.png" alt="instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/">
-                        <img class="images__github" src="./img/github.png" alt="github">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://rss.com/">
-                        <img class="images__rss" src="./img/rss-32.png" alt="rss">
-                    </a>
-                </li>
-            </ul>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__images">
+                <ul class="images__list">
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <img class="images__facebook" src="./img/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">
+                            <img class="images__twitter" src="./img/twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/">
+                            <img class="images__linkedin" src="./img/linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/">
+                            <img class="images__pinterest" src="./img/pinterest.png" alt="pinterest">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <img class="images__instagram" src="./img/insta.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/">
+                            <img class="images__github" src="./img/github.png" alt="github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rss.com/">
+                            <img class="images__rss" src="./img/rss-32.png" alt="rss">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__signature">
+                <h5>© 2015 Axure Themes</h5>
+            </div>
         </div>
-        <div class="contact__signature">
-            <h5>© 2015 Axure Themes</h5>
-        </div>
-        <!--</div>-->
     </footer>
 </body>
 

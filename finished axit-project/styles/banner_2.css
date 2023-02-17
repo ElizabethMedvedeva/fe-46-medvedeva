@@ -1,3 +1,7 @@
+.banner-second {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/bg.png);
+}
 .banner-second__wrapper {
   max-width: 1510px;
   display: flex;
@@ -7,9 +11,6 @@
 .banner-second__body {
   max-width: 1510px;
   height: 442px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/bg.png);
-  background-size: 1510px 442px;
   display: flex;
   flex-direction: column;
   align-items: center;

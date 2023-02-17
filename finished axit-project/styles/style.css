@@ -12,3 +12,7 @@ body {
 .divider_pink {
   border-bottom: 2px solid #ec7979;
 }
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}

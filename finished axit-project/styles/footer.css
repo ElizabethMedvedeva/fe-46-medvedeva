@@ -1,4 +1,4 @@
-.contact__footer {
+.footer__container {
   display: flex;
   flex-direction: column;
   background-color: #000000;
@@ -53,7 +53,7 @@
   margin-right: 480.64px;
 }
 
-.contact__signature h5 {
+.footer__signature h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

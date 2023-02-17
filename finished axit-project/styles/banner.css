@@ -1,7 +1,10 @@
-.banner__container {
+.banner {
   max-width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/city.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
 .banner__wrapper {
   max-width: 100%;
   display: flex;
@@ -12,9 +15,6 @@
 .banner__body {
   max-width: 100%;
   height: 1026px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/city.png);
-  background-size: 1510px 1026px;
   display: flex;
   align-items: center;
 }
@@ -204,90 +204,4 @@
   border: #ec7979 1px solid;
   color: #ec7979;
   background: #ffffff;
-}
-
-.banner__footer {
-  width: 100%;
-  height: 140px;
-  display: flex;
-  flex-direction: row;
-  background-color: #f8efef;
-  align-items: center;
-}
-
-.text__social-media {
-  width: 470px;
-  height: 60px;
-  margin-left: 170px;
-}
-
-.text__social-media h4 {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 33px;
-  display: flex;
-  align-items: center;
-  text-transform: capitalize;
-  color: #333333;
-}
-
-.text__text {
-  width: 470px;
-  height: 42px;
-  margin-left: 170px;
-}
-
-.text__text h5 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  color: #86878b;
-}
-
-.pic__list {
-  width: 637.21px;
-  height: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.pic__facebook {
-  width: 30.32px;
-  height: 55.42px;
-}
-
-.pic__twitter {
-  width: 57.32px;
-  height: 46.56px;
-}
-
-.pic__linkedin {
-  width: 52.5px;
-  height: 52.5px;
-}
-
-.pic__pinterest {
-  width: 58.33px;
-  height: 58.33px;
-}
-
-.pic__instagram {
-  width: 53px;
-  height: 53px;
-}
-
-.pic__github {
-  width: 58.18px;
-  height: 56.75px;
-}
-
-.pic__rss {
-  width: 46px;
-  height: 46px;
 }

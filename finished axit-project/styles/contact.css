@@ -10,7 +10,6 @@
 }
 
 .contact__header {
-  max-width: 1170px;
   display: flex;
   flex-direction: column;
   align-items: center;

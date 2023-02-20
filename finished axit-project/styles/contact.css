@@ -53,13 +53,21 @@
   text-align: center;
   color: #86878b;
 }
-
+.form__container {
+  width: 100%;
+}
 .contact__body {
   display: flex;
+  flex-direction: row;
 }
-
+.contact__input {
+  flex-grow: 1;
+}
+.contact__message {
+  flex-grow: 1;
+}
 .input__name input {
-  width: 571px;
+  width: 100%;
   height: 35px;
   font-family: "Open Sans";
   font-style: normal;
@@ -75,7 +83,7 @@
 }
 
 .input__email input {
-  width: 571px;
+  width: 100%;
   height: 35px;
   font-family: "Open Sans";
   font-style: normal;
@@ -91,7 +99,7 @@
 }
 
 .input__password input {
-  width: 571px;
+  width: 100%;
   height: 35px;
   font-family: "Open Sans";
   font-style: normal;
@@ -106,7 +114,7 @@
 }
 
 .input__message input {
-  width: 569px;
+  width: 100%;
   height: 211px;
   font-family: "Open Sans";
   font-style: normal;

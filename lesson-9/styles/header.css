@@ -1,0 +1,62 @@
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.header__logo {
+  max-width: 113px;
+  max-height: 25px;
+  margin-right: 19px;
+}
+.header__search {
+  position: relative;
+  margin: 0 19px;
+  flex-grow: 1;
+}
+.header__search input {
+  position: relative;
+  padding: 17px 50px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--mercury-background-color);
+}
+.header__search::before{
+    content: "\e901";
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    z-index: 10;
+    font-family: var(--Icon);
+    font-size: 14px;
+    color: var(--black-text-color);
+
+}
+.header__list {
+  display: flex;
+}
+.header__list a {
+  text-decoration: none;
+  margin: 0 15px;
+}
+.header__list li:last-child a {
+    text-decoration: none;
+    margin-right: 0;
+  }
+.header__list a.heart::after,
+.header__list a.lock::after,
+.header__list a.user::after {
+  text-decoration: none;
+  font-family: var(--Icon);
+  font-size: 18px;
+  color: var(--black-text-color);
+}
+.header__list a.heart::after {
+  content: "\e906";
+}
+.header__list a.lock::after {
+  content: "\e905";
+}
+.header__list a.user::after {
+  content: "\e904";
+}

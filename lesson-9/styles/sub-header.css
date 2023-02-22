@@ -1,0 +1,43 @@
+.sub-header {
+  background-color: var(--shaft-background-color);
+}
+.sub-header__wrapper {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.sub-header__actions {
+}
+.sub-header__list {
+  display: flex;
+}
+.sub-header__list a {
+  text-decoration: none;
+  color: var(--withe-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 15px;
+}
+.sub-header__actions li:first-child a {
+  margin-left: 0;
+}
+
+.sub-header__connect li:last-child a {
+  margin-right: 0;
+}
+.sub-header__list a.phone::before,
+.sub-header__list a.truck::before {
+  position: relative;
+  bottom: -2px;
+  margin-right: 10px;
+  font-family: var(--Icon);
+  font-size: 17px;
+  color: var(--withe-text-color);
+}
+.sub-header__list a.phone::before {
+  content: "\e908";
+}
+.sub-header__list a.truck::before {
+  content: "\e907";
+}

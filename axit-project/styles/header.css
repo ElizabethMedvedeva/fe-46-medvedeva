@@ -1,0 +1,69 @@
+.header {
+  background: #000000;
+}
+.header__container {
+  max-width: 1510px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  max-width: 100%;
+}
+
+.header__banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 83.98px;
+  height: 30.69px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 115.28px;
+  margin-top: 22.46px;
+  margin-right: 83.98px;
+  margin-bottom: 20px;
+}
+
+.axit__logo {
+  height: 30.69px;
+  width: 84px;
+}
+
+nav.menu {
+  margin-right: 55px;
+}
+
+ul.menu__panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /*max-width: 570px;
+    margin-right: 55px;*/
+  text-align: center;
+}
+
+ul.menu__panel li {
+  max-width: 114px;
+  text-align: center;
+}
+
+.menu__link {
+  padding: 0 25px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  background: #ec7979;
+}
+
+.menu__link:active {
+  background: #ab4949;
+}

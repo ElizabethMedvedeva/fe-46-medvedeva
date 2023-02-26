@@ -1,16 +1,16 @@
 .socials__container {
     max-width: 1510px;
-    height: 140px;
-    display: flex;
-    flex-direction: row;
     background-color: #f8efef;
-    align-items: center;
   }
-  
+  .socials__wrapper{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
   .text__social-media {
-    width: 470px;
     height: 60px;
-    margin-left: 170px;
+    flex-grow: 1;
   }
   
   .text__social-media h4 {
@@ -19,16 +19,12 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    display: flex;
-    align-items: center;
     text-transform: capitalize;
     color: #333333;
   }
   
   .text__text {
-    width: 470px;
-    height: 42px;
-    margin-left: 170px;
+    max-width: 470px;
   }
   
   .text__text h5 {
@@ -42,11 +38,12 @@
   }
   
   .pic__list {
-    width: 637.21px;
+    flex-grow: 1;
+    max-width: 637.21px;
     height: 140px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   
   .pic__facebook {

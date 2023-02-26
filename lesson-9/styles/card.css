@@ -1,0 +1,130 @@
+.card {
+  margin-top: 40px;
+  padding: 20px;
+  width: 263px;
+  max-height: 355px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  cursor: grab;
+}
+.card:hover {
+  max-height: 500px;
+  position: relative;
+  margin-bottom: -145px;
+  z-index: 10;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
+}
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.card__image {
+  padding: 12px;
+}
+.card__image-wrapper {
+  max-width: 200px;
+  max-height: 150px;
+}
+.card__image-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.card__discription {
+  padding-top: 42px;
+  color: var(--tundors-text-color);
+}
+.card__title h3,
+.card__price h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.card__subtitle {
+  margin: 6px 0 9px 0;
+}
+.card__size {
+  margin: 15px 0 8px 0;
+}
+.card__size p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.card__subtitle p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+}
+.card_sales .card_sales-disabled {
+  opacity: 0;
+}
+.card__sales p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--black-text-color);
+}
+.card__sales p::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 7px;
+  background-color: url(../images/sale-icon.png);
+  background-size: cover;
+}
+.card__like button {
+  width: 18px;
+  height: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: var(--Icon);
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  color: var(--black-text-color);
+}
+.card__like button::after {
+  content: "\e906";
+}
+.card__like button:hover::after {
+  color: var(--valencia-text-color);
+}
+.card__sizes {
+  display: flex;
+  justify-content: space-between;
+}
+.card__sizes-discription {
+  max-width: 37px;
+  margin-bottom: 17px;
+}
+.card__sizes-discription p {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: var(--silver-text-color);
+}
+.card__sizes-discription p:last-child {
+  color: var(--tundors-text-color);
+  margin-top: 8px;
+}
+.card__footer button {
+  width: 100%;
+  height: 40px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--white-text-color);
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--blue-background-color);
+  transition: all ease-in-out 0.5s;
+}
+.card__footer button:hover {
+  border: 1px solid var(--silver-text-color);
+}

@@ -1,0 +1,97 @@
+.footer{
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.03);
+}
+.footer__wrapper {
+padding: 50px 0 40px 0;
+}
+.footer__title,
+.footer__subtitle{
+display: flex;
+justify-content: space-between;
+}
+.footer__navigation {
+    max-width: 384px;
+}
+.footer__navigation-title{
+    padding: 4px 0 10px 0;
+}
+.footer__navigations-title h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 126.69%;
+    color: var(--black-text-color);
+}
+.footer__navigation-list,
+.footer__subtitle-list,
+.footer__contacts-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__contacts-list a,
+.footer__subtitle-list a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 126.69%;
+    margin: 0 30px;
+    color: var(--tundors-text-color);
+}
+.footer__subtitle-list a{
+    margin-left: 0;
+}
+.footer__contacts-list li:last-child a{
+    margin-right: 0;
+}
+.footer__navigation-list a {
+display: block;
+text-align: left;
+min-width: 115px;
+text-decoration: none;
+padding: 7px 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 126.69%;
+color: var(--tundors-text-color);
+}
+.footer__logo h2{
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49px;
+    text-align: right;
+    color: var(--black-text-color);
+}
+.footer__address{
+    margin-top: 25px;
+    max-width: 171px;
+}
+.footer__address p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 126.69%;
+    text-align: right;
+    color: var(--tundors-text-color);
+}
+.footer__subtitle{
+    margin-top: 34px;
+}
+
+.footer__contacts-list a.mail::before,
+.footer__contacts-list a.phone::before,
+.footer__contacts-list a.instagram::before{
+    position: relative;
+    bottom: -2px;
+    margin-right: 10px;
+    font-family: var(--Icon);
+    font-size: 17px;
+    color: var(--black-text-color);
+}
+.footer__contacts-list a.phone::before{
+    content: "\e908";
+}
+.footer__contacts-list a.instagram::before{
+    content: "\e90a";
+}
+.footer__contacts-list a.mail::before{
+    content: "\e900";
+}

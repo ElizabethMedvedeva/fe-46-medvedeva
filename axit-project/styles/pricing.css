@@ -1,3 +1,6 @@
+.pricing {
+  background: #f5f5f5;
+}
 .pricing__wrapper {
   max-width: 100%;
 }
@@ -6,6 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 110px;
 }
 
 .pricing__title {
@@ -41,18 +45,24 @@
 
 .pricing__body {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 79px;
 }
 
-.pricing__cards:hover {
+/* .pricing__cards:hover {
   padding-top: 20px;
   box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+} */
+.pricing__cards:hover  {
+  transform: translate(0, -20px);
+  box-shadow: 0px 4px 10px 0px #33333333;
 }
-
 .pricing__cards {
-  margin-left: 30px;
+  max-width: 370px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  margin-bottom: 50px;
 }
 
 .pricing__tariff {
@@ -60,7 +70,7 @@
   border: 2px solid #f5f5f5;
   display: flex;
   justify-content: center;
-  width: 370px;
+  align-items: center;
   height: 60px;
 }
 
@@ -70,9 +80,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: capitalize;
   color: #ffffff;
 }
@@ -82,7 +89,7 @@
   border: 2px solid #f5f5f5;
   display: flex;
   justify-content: center;
-  width: 370px;
+  align-items: center;
   height: 100px;
 }
 
@@ -91,9 +98,6 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -102,7 +106,7 @@
   border: 2px solid #f5f5f5;
   display: flex;
   justify-content: center;
-  width: 370px;
+  align-items: center;
   height: 50px;
 }
 
@@ -111,9 +115,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -122,21 +123,18 @@ ul.pricing__list {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .pricing__list li {
   background: #ffffff;
   border: 2px solid #f5f5f5;
-  width: 370px;
+  width: 100%;
   height: 50px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   text-transform: capitalize;
   color: #86878b;
 }

@@ -1,110 +1,86 @@
 .reviews__wrapper {
   max-width: 100%;
 }
-
 .reviews__header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  justify-content: center;
 }
-
 .reviews__title {
   max-width: 1170px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
+  padding: 53.87px 0 53.87px 0;
 }
-
 .reviews__title h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #000000;
 }
-
 .reviews__info {
   margin-top: 40px;
 }
-
 .reviews__info h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #86878b;
 }
-
 .reviews__body {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 83px;
   margin-bottom: 64px;
 }
-
 .reviews__card {
-  display: flex;
-  flex-direction: column;
+  padding: 0 10px;
 }
-
 .reviews__message {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin-left: 30px;
   margin-bottom: 66px;
 }
-
 .message__cards {
-  width: 370px;
-  height: 180px;
+  position: relative;
+  max-width: 370px;
   background-color: #e2e2e2;
   border-radius: 10px;
+  text-align: center;
   padding: 38px 0 37px 0;
 }
-
+.message__cards::after {
+  content: "";
+  position: absolute;
+  left: 22%;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  clear: both;
+}
 .message__cards h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #86878b;
+  white-space: pre-line;
 }
-
 .reviews__profile {
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
-
 .profile__avatar {
   width: 70px;
   height: 70px;
 }
-
 .profile__info {
-}
-
-.info__nick {
-  margin-bottom: 15px;
   margin-left: 30px;
 }
-
+.info__nick {
+  margin-bottom: 15px;
+  padding: 10.66px 0 10.66px 0;
+}
 .info__nick h4 {
   font-family: "Open Sans";
   font-style: normal;
@@ -116,17 +92,10 @@
   text-transform: capitalize;
   color: #000000;
 }
-
-.info__position {
-  margin-left: 30px;
-}
-
 .info__position h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
   color: #000000;
 }

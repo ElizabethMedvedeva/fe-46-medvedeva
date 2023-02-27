@@ -15,20 +15,19 @@
 .header__banner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 22.46px 0 20px 0;
 }
 .header__logo {
-  width: 83.98px;
-  height: 30.69px;
-  margin: 22.46px 0 20px 0;
-  flex-grow: 1;
-  padding-left: 115px;
+  width: 84px;
+  height: 100%;
+  flex-shrink: 0;
 }
 .axit__logo {
   height: 30.69px;
   width: 84px;
 }
 nav.menu {
-  flex-grow: 1;
   margin-right: 55px;
 }
 ul.menu__panel {

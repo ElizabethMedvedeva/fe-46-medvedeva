@@ -51,7 +51,9 @@
     align-items: center;
     justify-content: space-between;
   }
-  
+  .pic__list li{
+    margin: 0 5px;
+  }
   .pic__facebook {
     width: 30.32px;
     height: 55.42px;

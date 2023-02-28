@@ -1,25 +1,33 @@
+.footer {
+  background-color: #000000;
+  margin-top: 50px;
+}
 .footer__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 18px 0;
+}
+.footer__wrapper {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #000000;
-  margin-top: 105px;
   align-items: center;
-  max-width: 1510px;
 }
 
 .images__list {
-  width: 1510px;
-  height: 164px;
+  max-width: 595px;
+  height: 140px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.images__list li {
+  margin: 0 20px;
 }
 
 .images__facebook {
   width: 23.04px;
   height: 42.12px;
-  margin-left: 485.08px;
 }
 
 .images__twitter {
@@ -50,16 +58,11 @@
 .images__rss {
   width: 34.49px;
   height: 34.49px;
-  margin-right: 480.64px;
 }
-
 .footer__signature h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }

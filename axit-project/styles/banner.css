@@ -146,8 +146,7 @@
 }
 @media screen and (max-width: 1024px) {
   .banner__body {
-    padding-top: 212px;
-    padding-bottom: 131px;
+    padding: 212px 25px 131px 25px;
     justify-content: space-evenly;
   }
   .main-section__logo {

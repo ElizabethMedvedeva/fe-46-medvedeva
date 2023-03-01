@@ -18,21 +18,17 @@
   padding-bottom: 185px;
   justify-content: space-between;
 }
-
 .main-section__logo {
   margin-bottom: 72px;
 }
-
 .logo__axit img {
   width: 165px;
   height: 55px;
 }
-
 .main-section__title {
   max-width: 670px;
   margin-bottom: 55.12px;
 }
-
 .main-section__title h1 {
   font-style: normal;
   font-weight: 500;
@@ -43,7 +39,6 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-
 .divider.white {
   border-color: #ffffff;
   margin-left: 0px;
@@ -53,11 +48,12 @@
   color: #ec7979;
   background: #ffffff;
 }
-
 .main-section__text {
   max-width: 270px;
   margin-top: 42px;
   margin-bottom: 42px;
+}
+.main-section__text h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -103,11 +99,9 @@
   text-transform: uppercase;
   color: #333333;
 }
-
 .form__title span {
   color: #ec7979;
 }
-
 .form__card-input {
   width: 100%;
   padding: 0 50px;
@@ -128,7 +122,6 @@
   border-right: none;
   border-color: #bdbdbd;
 }
-
 .form__btn {
   width: 100%;
 }
@@ -146,16 +139,88 @@
   border-style: hidden;
   border-radius: 0 0 10px 10px;
 }
-
 .form__btn button:hover {
   border: #ec7979 1px solid;
   color: #ec7979;
   background: #ffffff;
 }
-/* @media screen and (max-width: 1024px) {
-.banner__body{
-  padding: 211px 20px 106px 115px;
-  display: flex;
-  justify-content: space-between;
+@media screen and (max-width: 1024px) {
+  .banner__body {
+    padding-top: 212px;
+    padding-bottom: 131px;
+    justify-content: space-evenly;
+  }
+  .main-section__logo {
+    margin-bottom: 54px;
+  }
+  .logo__axit img {
+    width: 111.89px;
+    height: 41.17px;
+  }
+  .main-section__title {
+    max-width: 454px;
+    margin-bottom: 41px;
+  }
+  .main-section__title h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .main-section__text h5 {
+    font-size: 14px;
+    line-height: 16.44px;
+  }
+  .main-section__text {
+    max-width: 183px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+  }
+  .main-section__button button {
+    width: 183px;
+    height: 50px;
+  }
+  .banner__form-section {
+    margin-left: 36px;
+    max-width: 398px;
+  }
+  .form__title h4 {
+    font-size: 18px;
+    line-height: 24.5px;
+  }
 }
-} */
+@media screen and (max-width: 770px) {
+.banner__body{
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+}
+.banner__main-section{
+  margin-bottom: 56px;
+}
+.main-section__logo{
+  display: none;
+}
+.main-section__title{
+  max-width: 288px;
+  text-align: center;
+}
+.divider.white{
+ margin: 0 auto;
+}
+.main-section__text{
+  max-width: 288px;
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+.main-section__button button {
+  width: 288px;
+  height: 50px;
+}
+.banner__form-section{
+  margin-left: 0;
+}
+.form__title h4 {
+  font-size: 14px;
+  line-height: 19px;
+}
+}

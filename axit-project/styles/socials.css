@@ -1,16 +1,21 @@
+.socials{
+  background-color: #f8efef;
+}
 .socials__container {
-    max-width: 1510px;
-    height: 140px;
-    display: flex;
-    flex-direction: row;
-    background-color: #f8efef;
-    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 18px 0;
   }
-  
+  .socials__wrapper{
+    max-width: 100%;
+    display: flex;
+
+  }
+  .socials__text{
+    flex-grow: 1;
+  }
   .text__social-media {
-    width: 470px;
     height: 60px;
-    margin-left: 170px;
   }
   
   .text__social-media h4 {
@@ -19,16 +24,12 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    display: flex;
-    align-items: center;
     text-transform: capitalize;
     color: #333333;
   }
   
   .text__text {
-    width: 470px;
-    height: 42px;
-    margin-left: 170px;
+    max-width: 470px;
   }
   
   .text__text h5 {
@@ -40,15 +41,19 @@
     align-items: center;
     color: #86878b;
   }
-  
+  .socials__pic{
+    flex-grow: 1;
+  }
   .pic__list {
-    width: 637.21px;
+    max-width: 637.21px;
     height: 140px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
-  
+  .pic__list li{
+    margin: 0 5px;
+  }
   .pic__facebook {
     width: 30.32px;
     height: 55.42px;
@@ -80,6 +85,145 @@
   }
   
   .pic__rss {
-    width: 46px;
-    height: 46px;
+    width: 45.38px;
+    height: 45.38px;
+  }
+  @media  screen and (max-width: 1024px) {
+    .socials__container{
+      padding: 0;
+    }
+    .socials__wrapper{
+      padding: 0 16px 13px;
+    }
+    .text__social-media{
+      padding: 12px 0;
+      margin-bottom: 13px;
+    }
+    .text__social-media h4{
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .text__text h5{
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .pic__facebook{
+      width: 27.72px;
+      height: 50.67px;
+    }
+    .pic__twitter{
+      width: 52.41px;
+      height: 42.57px;
+    }
+    .pic__linkedin{
+      width: 48px;
+      height: 48px;
+    }
+    .pic__pinterest{
+      width: 53.33px;
+      height: 53.33px;
+    }
+    .pic__instagram{
+      width: 48.02px;
+      height: 48.1px;
+    }
+    .pic__github{
+      width: 53.19px;
+      height: 51.88px;
+    }
+    .pic__rss{
+      width: 41.49px;
+      height: 41.49px;
+    }
+  }
+  @media  screen and (max-width: 850px){
+    .socials__wrapper{
+      flex-direction: column;
+      align-items: center;
+    }
+    .socials__text{
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      text-align: center;
+    }
+  }
+  @media  screen and (max-width: 600px){
+    .pic__facebook{
+      width: 21.26px;
+      height: 30.58px;
+    }
+    .pic__twitter{
+      width: 31.29px;
+      height: 27.29px;
+    }
+    .pic__linkedin{
+      width: 29.5px;
+      height: 29.5px;
+    }
+    .pic__pinterest{
+      width: 33.33px;
+      height: 31.67px;
+    }
+    .pic__instagram{
+      width: 29.51px;
+      height: 29.54px;
+    }
+    .pic__github{
+      width: 31.61px;
+      height: 31.08px;
+    }
+    .pic__rss{
+      width: 26.86px;
+      height: 26.86px;
+    }
+  }
+  @media  screen and (max-width: 500px){
+    .
+    .socials__wrapper{
+      padding: 29px 0 41px;
+    }
+    .text__social-media{
+      padding: 12px 1px 7px;
+      margin-bottom: 0;
+    }
+    .text__social-media h4{
+      text-align: center;
+    }
+    .text__text h5{
+      text-align: center;
+      min-width: 271px;
+      padding-left: 17px;
+    }
+    .pic__list{
+    max-height: 70px;
+    }
+    .pic__facebook{
+      width: 11.26px;
+      height: 20.58px;
+    }
+    .pic__twitter{
+      width: 21.29px;
+      height: 17.29px;
+    }
+    .pic__linkedin{
+      width: 19.5px;
+      height: 19.5px;
+    }
+    .pic__pinterest{
+      width: 23.33px;
+      height: 21.67px;
+    }
+    .pic__instagram{
+      width: 19.51px;
+      height: 19.54px;
+    }
+    .pic__github{
+      width: 21.61px;
+      height: 21.08px;
+    }
+    .pic__rss{
+      width: 16.86px;
+      height: 16.86px;
+    }
   }

@@ -1,25 +1,33 @@
+.footer {
+  background-color: #000000;
+  margin-top: 50px;
+}
 .footer__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 18px 0;
+}
+.footer__wrapper {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #000000;
-  margin-top: 105px;
   align-items: center;
-  max-width: 1510px;
 }
 
 .images__list {
-  width: 1510px;
-  height: 164px;
+  max-width: 595px;
+  height: 140px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.images__list li {
+  margin: 0 20px;
 }
 
 .images__facebook {
   width: 23.04px;
   height: 42.12px;
-  margin-left: 485.08px;
 }
 
 .images__twitter {
@@ -50,16 +58,99 @@
 .images__rss {
   width: 34.49px;
   height: 34.49px;
-  margin-right: 480.64px;
 }
-
 .footer__signature h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .footer__wrapper {
+    padding: 0 16px;
+  }
+  .images__list{
+    max-height: 70px;
+  }
+  .images__facebook {
+    width: 19.49px;
+    height: 35.62px;
+  }
+
+  .images__twitter {
+    width: 37.67px;
+    height: 29.93px;
+  }
+
+  .images__linkedin {
+    width: 33.75px;
+    height: 33.75px;
+  }
+
+  .images__pinterest {
+    width: 38.33px;
+    height: 37.5px;
+  }
+
+  .images__instagram {
+    width: 33.76px;
+    height: 33.82px;
+  }
+
+  .images__github {
+    width: 38.23px;
+    height: 36.48px;
+  }
+
+  .images__rss {
+    width: 29.17px;
+    height: 29.17px;
+  }
+  .footer__signature h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 560px){
+  .footer{
+    padding: 0 7.5px;
+  }
+  .images__facebook {
+    width: 11.26px;
+    height: 20.58px;
+  }
+  .images__twitter {
+    width: 21.29px;
+    height: 17.29px;
+  }
+  .images__linkedin {
+    width: 19.5px;
+    height: 19.5px;
+  }
+  .images__pinterest {
+    width: 23.33px;
+    height: 21.67px;
+  }
+  .images__instagram {
+    width: 19.51px;
+    height: 19.54px;
+  }
+  .images__github {
+    width: 21.61px;
+    height: 21.08px;
+  }
+  .images__rss {
+    width: 16.86px;
+    height: 16.86px;
+  }
+}
+@media screen and (max-width: 460px){
+  .images__list li{
+    margin: 0 10px;
+  }
 }

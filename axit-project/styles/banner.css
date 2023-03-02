@@ -152,3 +152,10 @@
   color: #ec7979;
   background: #ffffff;
 }
+/* @media screen and (max-width: 1024px) {
+.banner__body{
+  padding: 211px 20px 106px 115px;
+  display: flex;
+  justify-content: space-between;
+}
+} */

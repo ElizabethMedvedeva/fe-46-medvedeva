@@ -194,6 +194,17 @@ ul.menu__panel li {
     height: 22.92px;
     width: 62.71px;
   }
+  #features,
+   #about,
+   #pricing,
+   #reviews,
+   #contact {
+   border-top: 30px solid transparent;
+   margin-top: -30px;
+   -moz-background-clip: padding;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   }
   nav.menu{
     display: none;
   }

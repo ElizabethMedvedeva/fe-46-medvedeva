@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="header__container">
             <div class="header__wrapper">
@@ -24,10 +23,10 @@
                     <nav class="menu">
                         <ul class="menu__panel">
                             <li class="menu__sections">
-                                <a href="#tab" class="menu__link">Features</a>
+                                <a href="#features" class="menu__link">Features</a>
                             </li>
                             <li class="menu__sections">
-                                <a href="#awesome" class="menu__link">About</a>
+                                <a href="#about" class="menu__link">About</a>
                             </li>
                             <li class="menu__sections">
                                 <a href="#pricing" class="menu__link">Pricing</a>
@@ -41,7 +40,24 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="header__burger">
+                    <button type="button" class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
             </div>
+            <nav class="header__mobile-menu">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
     </header>
     <section class="banner">
@@ -139,24 +155,19 @@
             </div>
         </div>
     </section>
-    <section class="tabs">
+    <section class="tabs" id="features">
         <div class="container">
             <div class="tabs__wrapper">
                 <div class="tabs__body">
                     <div class="tabs__nav-list">
-                        <input type="radio" id="inputTab1" name="tab" value="tab1" checked>
-                        <label class="tabs__nav-item" for="inputTab1"><a class="tabs__nav-link" href="#tab1">TAB
-                                1</a></label>
-                        <input type="radio" id="inputTab2" name="tab" value="tab2">
-                        <label class="tabs__nav-item" for="inputTab2"><a class="tabs__nav-link" href="#tab2">TAB
-                                2</a></label>
-                        <input type="radio" id="inputTab3" name="tab" value="tab3">
-                        <label class="tabs__nav-item" for="inputTab3"><a class="tabs__nav-link" href="#tab3">TAB
-                                3</a></label>
+                        <button class="tabs__nav-item tabs__nav-item_active">tab 1</button>
+                        <button class="tabs__nav-item">tab 2</button>
+                        <button class="tabs__nav-item">tab 3</button>
+                      
                     </div>
                     <div class="tabs__pages-nice">
-                        <div class="tab" id="tab1">
-                            <div class="tab__content">
+                        <div class="tab tab__content_active" id="tab1">
+                            <div class="tab__content ">
                                 <div class="tab__title">
                                     <h3>Tabs with soft transitioning effect.</h3>
                                 </div>
@@ -173,8 +184,10 @@
                                     <button type="button">Download</button>
                                 </div>
                             </div>
-                            <div class="tab__image">
-                                <img src="./img/Rectangle.png" alt="statue">
+                            <div class="tab__image-wrapper">
+                                <div class="tab__image">
+                                    <img src="./img/Rectangle.png" alt="statue">
+                                </div>
                             </div>
                         </div>
                         <div class="tab" id="tab2">
@@ -195,8 +208,10 @@
                                     <button type="button">Download</button>
                                 </div>
                             </div>
-                            <div class="tab__image">
-                                <img src="./img/Rectangle.png" alt="statue">
+                            <div class="tab__image-wrapper">
+                                <div class="tab__image">
+                                    <img src="./img/Rectangle.png" alt="statue">
+                                </div>
                             </div>
                         </div>
                         <div class="tab" id="tab3">
@@ -217,8 +232,10 @@
                                     <button type="button">Download</button>
                                 </div>
                             </div>
-                            <div class="tab__image">
-                                <img src="./img/Rectangle.png" alt="statue">
+                            <div class="tab__image-wrapper">
+                                <div class="tab__image">
+                                    <img src="./img/Rectangle.png" alt="statue">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -226,7 +243,7 @@
             </div>
         </div>
     </section>
-    <section class="awesome">
+    <section class="awesome" id="about">
         <div class="container">
             <div class="awesome__wrapper">
                 <div class="awesome__header">
@@ -300,7 +317,7 @@
             </div>
         </div>
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="pricing__wrapper">
                 <div class="pricing__header">
@@ -374,7 +391,7 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <div class="container">
             <div class="reviews__wrapper">
                 <div class="reviews__header">
@@ -454,6 +471,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="customers-card_radio">
+                    <input type="radio" name="reviews">
+                    <input type="radio" name="reviews">
+                    <input type="radio" name="reviews">
+                </div>
             </div>
         </div>
     </section>
@@ -476,7 +498,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="contact__wrapper">
                 <div class="contact__header">
@@ -504,7 +526,7 @@
                             </div>
                             <div class="contact__message">
                                 <div class="input__message">
-                                    <input type="text" placeholder="Message">
+                                    <textarea type="text" placeholder="Message"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -565,6 +587,7 @@
         </div>
     </footer>
     <script src="./tab.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

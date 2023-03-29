@@ -27,15 +27,15 @@ let count = 42;
 let userName = '42';
 
 // number to string
-console.log(`${count}`)
-console.log(String(count))
-console.log('' + count)
-console.log(count.toString())
+console.log(`${count}`); //using for long string with dynamic data
+console.log(String(count));
+console.log('' + count);
+console.log(count.toString());
 
 // string to number
-console.log(userName, +userName)
-console.log(Number(userName))
-console.log(parseInt(userName))
+console.log(userName, +userName);
+console.log(Number(userName));
+console.log(parseInt(userName));
 // ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------
 
 // Task 4
@@ -45,6 +45,9 @@ let b = 2;
 let c = "белых медведей";
 
 console.log(String(a) + String(b)+ c);
+
+let resultTask = `${a}${b} ${c}` 
+console.log(resultTask);
 
 // ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------
 
@@ -57,7 +60,11 @@ let  fifthWord= "рубило";
 
 let lengthWords = fifthWord + secondWord + thirddWord + fourthWord + fifthWord;
 
-console.log(lengthWords.length);
+console.log(lengthWords.length); //it's possible, but
+
+let resultTask5 = (fifthWord + secondWord + thirddWord + fourthWord + fifthWord).length;
+
+console.log(resultTask5); //this one better
  
 // ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------
 
@@ -66,7 +73,12 @@ console.log(lengthWords.length);
 let requestName = "Enter your name:";
 let requestAge = "Enter your age:";
 
+let resultTask6 = `Enter your name: Enter your age:`;
+ alert(resultTask6);
+
+
 console.log(requestName, requestAge);
+
 // ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------
 
 
